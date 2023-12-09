@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Website Trial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p style="background-image: url('banner_cover.png');"></p>
+
+   <!--- <<h1>Neelii_44's Books</h1>-->
+
+    <div id="author-name-container">
+        <h1 id="author-name">Neelii_44</h1>
+    </div>
+
+    <section id="author-info">
+        <h2>About Neelii_44</h2>
+        <p>The author started writing in the 9th grade and has been writing on and off ever since then. <br>
+            She just hopes everyone who reads her books enjoys them.<br> <br>
+
+            Neelii_44 also has a blog that talks about her writing journey and experience getting her books contracted,among other things<br>
+            <a href="https://storytellingsanctuary.blogspot.com/" onclick="handleBookLinkClick('https://storytellingsanctuary.blogspot.com/')">Visit Storytelling Sanctuary</a>
+
+
+        
+        </p>
+    </section>
+
+    <section id="books-container">
+        <!-- onclick event for book toggling and book link click handling -->
+        <div class="book" onclick="toggleBookInfo(this)">
+            <h2>The Alpha's Babies</h2>
+            <img src="book1_cover.png" alt="Book 1 Cover">
+            <p>Blurb: After a night of pain, Skylar decides that she has endured enough.<br>
+                      Tired of his abuse she runs away from her possessive boyfriend not knowing that she isn't just his girlfriend.<br>
+                      She was his mate.<br>
+
+                      Reluctant to lose his mate Caine tracks, Skylar and finds her with a pack of rogues. 
+                      What was his human mate doing with a pack of rogues and why did her scent change?</p><br>
+
+            <p class="status">Status: Completed <br> # of Chapters: 25</p>
+            <!-- onclick attribute to call handleBookLinkClick function -->
+            <a href="https://www.webnovel.com/book/the-alpha's-babies_22241790706320405" onclick="handleBookLinkClick('https://www.webnovel.com/book/the-alpha\'s-babies_22241790706320405')">Read Book</a>
+
+        </div>
+
+        <!-- onclick event for book toggling and book link click handling -->
+        <div class="book" onclick="toggleBookInfo(this)">
+            <h2>Whispers of the Moon: A Witch's Tale</h2>
+            <img src="book2_cover.png" alt="Book 2 Cover">
+            <p>Blurb: Millicent Hawthorne's peaceful life shatters when her husband succumbs to a plague.<br>
+                      Unable to grieve, she soon has to seek revenge for her daughter's death at the hands of the sinister Fredrick Griffin.
+                      Turning to forbidden witchcraft, Millicent makes a pact with Morgana, a powerful birth witch, unintentionally triggering a curse woven with wolf's blood and ancient magic.<br>
+                      This curse reshapes the fates of unknowing descendants. "Whispers of the Moon: A Witch's Tale" unfolds—a story of revenge, unintended consequences, and the enduring force of dark magic.<br>
+
+                       Prequel to The Alpha's Babies, but both can be read as stand-alone.</p>
+            <p class="status">Status: Ongoing</p>
+            
+            <!-- onclick attribute to call openInNewTab function -->
+            <a href="https://www.webnovel.com/book/whispers-of-the-moon-a-witch%E2%80%99s-tale_28089097800042105" onclick="openInNewTab('https://www.webnovel.com/book/whispers-of-the-moon-a-witch%E2%80%99s-tale_28089097800042105')">Read Book</a>
+        </div>
+
+
+        <div class="book" onclick="toggleBookInfo(this)">
+            <h2>Debt to the Mafia</h2>
+            <img src="book3_cover.jpg" alt="Book 3 Cover">
+            <p>Blurb: What if the last drop of family you had left, your mother, chose to pay her debts with you?<br>
+                      Meet Elena De'Leon; her mother has made her the currency for a deal with the notorious mafia kingpin, Leon Martinez.
+                      Leon Martinez, wearied by the incessant carousel of fleeting affairs as a mafia boss, has reached a turning point.
+                      Now, he craves not just any woman, but the daughter of the very woman indebted to him. In this precarious exchange, 
+                      desire intertwines with debt, setting the stage for a perilous dance of hearts and debts.</p>
+            <p class="status">Status: Ongoing</p>
+            <a href="https://www.dreame.com/story/2196265728-debt-to-the-mafia" onclick="openInNewTab('https://www.dreame.com/story/2196265728-debt-to-the-mafia')">Read Book</a>
+           
+        </div>
+
+
+        <div class="book" onclick="toggleBookInfo(this)">
+            <h2>The Mistress' Revenge</h2>
+            <img src="book4_cover.png" alt="Book 4 Cover">
+            <p>Blurb: In the glittering world of a high-tech empire, Samantha's love story with CEO Peterson Charles hides a dark secret. 
+                      As their dreams of a future together unfold, so does Peterson's hidden life—a double existence that threatens to shatter Samantha's world. 
+                      Unbeknownst to her, a mysterious rival lurks in the shadows, unraveling a web of deceit and betrayal. The revelation sparks a relentless pursuit of the truth, setting the stage for a gripping tale of love, revenge, and the shocking consequences of a tech magnate's hidden life. 
+                      Brace yourself for a journey where passion collides with deception, and trust becomes the ultimate casualty..</p>
+            <p class="status">Status: Ongoing</p>
+            <a href="https://www.webnovel.com/book/the-mistress'-revenge_28139286608007605" target="_blank">Read Here</a>
+
+
+           
+        </div>
+        
+        
+    </section>
+
+    <footer>
+        &copy; 2023 Neelii_44, J.A
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
